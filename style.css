@@ -12,6 +12,9 @@
   margin-bottom: 20px;
   background-color: #1f2937;
 } 
+main{
+    margin-top: 30px;
+}
 
 .header-links-logo{
     display: flex;
@@ -63,15 +66,11 @@ a:link{
 .main-title{
     text-align: center;
     margin-bottom: 10px;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: bolder;
 }
-.main-list li{
-    /* border:2px solid blue; */
-    width:150px;
-    height: 150px;
-}
-.main-list{
-    display: flex;
-}
+
 .secondary-text{
     font-size: 24px;
     color: #e5e7eb;
@@ -82,4 +81,52 @@ button{
     background-color:#3882f6 ;
     padding: 3px 10px;
     border-radius: 10px;
+}
+.top-container{
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+}
+.list-date{
+    display: flex;
+    flex-direction: column;
+    min-width: 200px;
+    
+}
+.empty{
+    border: 2px solid blue;
+    padding: 50px;
+    height: 40px;
+    width: 50px;
+}
+.bottom-container{
+    display: flex;
+    background-color: #3882f6;
+    margin: 15px 115px 15px 115px;
+    padding: 50px;
+}
+.blue-section strong{
+    font-size: 24px;
+    color: #e5e7eb;
+}
+.blue-section p{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.bottom-container button{
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    margin:auto;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
