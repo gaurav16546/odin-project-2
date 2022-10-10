@@ -104,6 +104,7 @@ button{
     background-color: #3882f6;
     margin: 15px 115px 15px 115px;
     padding: 50px;
+    border-radius: 15px;
 }
 .blue-section strong{
     font-size: 24px;
@@ -129,4 +130,21 @@ footer{
     color: #e5e7eb;
     padding-top: 25px;
     padding-bottom: 25px;
+}
+.quote-section{
+    background-color: #e5e7eb;
+    padding: 75px 175px 75px;
+
+}
+.quote{
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
+.quoter{
+    margin-left: 1250px;
+    /* margin-right: auto; */
+    font-weight: bold;
+    font-size: 20px;
 }
